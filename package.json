@@ -1,0 +1,33 @@
+{
+  "name": "nextjs-ui-pages",
+  "version": "1.0.0",
+  "description": "this is npm package of next js pages or routes",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YSB-RB/nextjs-ui-pages.git"
+  },
+  "keywords": [
+    "ui",
+    "pages"
+  ],
+  "author": "Yousub Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YSB-RB/nextjs-ui-pages/issues"
+  },
+  "homepage": "https://github.com/YSB-RB/nextjs-ui-pages#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9"
+  }
+}
